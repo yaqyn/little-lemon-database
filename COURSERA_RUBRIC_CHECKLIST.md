@@ -8,8 +8,8 @@ supplied baseline. The provided deadline is November 16, 23:59 UTC+03:00.
 
 | # | Criterion | Status | File and supporting evidence |
 | --- | --- | --- | --- |
-| 1 | GitHub repository successfully created | NOT VERIFIED | Publication verification pending; this row is updated only after the actual repository is checked. |
-| 2 | Appropriate project present in repository | NOT VERIFIED | Upload verification pending; local project, source workbook, SQL, Python, notebook, tests and diagrams are complete. |
+| 1 | GitHub repository successfully created | PASS | Verified public repository: https://github.com/yaqyn/little-lemon-database. GitHub API confirms the repository and main branch. |
+| 2 | Appropriate project present in repository | PASS | GitHub recursive tree verified: SQL procedures, source workbook, executed notebook, tests, ER PNG/PDF and documentation are present on main. |
 | 3 | Appropriate ER diagram with table connections | PASS | `diagrams/little_lemon_er_diagram.png` and `.pdf` are generated from actual `information_schema`. Seven tables, columns, keys and FK relationships are captured in `schema_manifest.json`; `test_er_diagram_metadata_matches_deployed_schema` passes. PNG and rasterized PDF were visually inspected. |
 | 4 | `GetMaxQuantity()` | PASS | `sql/stored_procedures.sql`: `MAX(Orders.Quantity)` returns **3** from the actual workbook. `test_get_max_quantity_uses_imported_order_quantities` and the executed Python demo/notebook verify it. |
 | 5 | `ManageBooking()` | PASS | Accepts DATE and table number, returns an actual availability message and `IsBooked`. Tests cover booked, available and invalid cases. The demo prints `Table 1 is already booked` for the seeded example. |
@@ -17,8 +17,8 @@ supplied baseline. The provided deadline is November 16, 23:59 UTC+03:00.
 | 7 | `AddBooking()` | PASS | Accepts booking ID, actual-format customer ID, date and table; validates required values, customer existence and uniqueness. Tests cover success, historical dates, invalid/missing values, duplicate IDs/date-table pairs, and rollback. |
 | 8 | `CancelBooking()` | PASS | Locks and deletes the requested booking, with a clear result and missing-booking error. Tests verify commit persistence and rollback, using only temporary test IDs. |
 
-Current publication rows are deliberately not marked PASS until GitHub has been
-verified. All six local technical rubric criteria above have execution evidence.
+All eight supplied rubric criteria have supporting evidence: **8 PASS, 0 FAIL,
+0 NOT VERIFIED**. Supplemental native application limitations are listed below.
 
 ## Executed technical checks
 

@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/yaqyn/little-lemon-database",
+  "verified_tree_commit": "e408f4fcaef6826566bbadfcc0a88ea68d5a85dc",
+  "verified_required_files": [
+    "sql/stored_procedures.sql",
+    "diagrams/little_lemon_er_diagram.png",
+    "diagrams/little_lemon_er_diagram.pdf",
+    "data/source/LittleLemon_data.xlsx",
+    "notebooks/Little_Lemon_Database.ipynb",
+    "COURSERA_RUBRIC_CHECKLIST.md"
+  ],
+  "tracked_files": 62
+}
