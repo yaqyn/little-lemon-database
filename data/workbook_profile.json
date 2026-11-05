@@ -1,0 +1,297 @@
+{
+  "source_file": "LittleLemon_data.xlsx",
+  "sha256": "2bd49d02905992f28762442ad8eb439c648a6ab66d055f9cdb31b79cab438cfb",
+  "source_size_bytes": 2742841,
+  "date_system": "1900",
+  "sheet_names": [
+    "Orders"
+  ],
+  "sheets": [
+    {
+      "name": "Orders",
+      "dimension": "A1:U21001",
+      "record_count": 21000,
+      "column_count": 21,
+      "formula_cells": 21000
+    }
+  ],
+  "columns": [
+    {
+      "source_name": "Row Number",
+      "normalized_header": "Row Number",
+      "missing_values": 0,
+      "unique_values": 21000,
+      "xlsx_cell_types": {
+        "n": 21000
+      }
+    },
+    {
+      "source_name": "Order ID",
+      "normalized_header": "Order ID",
+      "missing_values": 0,
+      "unique_values": 1000,
+      "xlsx_cell_types": {
+        "s": 21000
+      }
+    },
+    {
+      "source_name": "Order Date",
+      "normalized_header": "Order Date",
+      "missing_values": 0,
+      "unique_values": 700,
+      "xlsx_cell_types": {
+        "n": 21000
+      }
+    },
+    {
+      "source_name": "Delivery Date",
+      "normalized_header": "Delivery Date",
+      "missing_values": 0,
+      "unique_values": 666,
+      "xlsx_cell_types": {
+        "n": 21000
+      }
+    },
+    {
+      "source_name": "Customer ID",
+      "normalized_header": "Customer ID",
+      "missing_values": 0,
+      "unique_values": 1000,
+      "xlsx_cell_types": {
+        "s": 21000
+      }
+    },
+    {
+      "source_name": "Customer Name",
+      "normalized_header": "Customer Name",
+      "missing_values": 0,
+      "unique_values": 1000,
+      "xlsx_cell_types": {
+        "s": 21000
+      }
+    },
+    {
+      "source_name": "City",
+      "normalized_header": "City",
+      "missing_values": 0,
+      "unique_values": 975,
+      "xlsx_cell_types": {
+        "s": 21000
+      }
+    },
+    {
+      "source_name": "Country",
+      "normalized_header": "Country",
+      "missing_values": 0,
+      "unique_values": 123,
+      "xlsx_cell_types": {
+        "s": 21000
+      }
+    },
+    {
+      "source_name": "Postal Code",
+      "normalized_header": "Postal Code",
+      "missing_values": 0,
+      "unique_values": 18528,
+      "xlsx_cell_types": {
+        "s": 8648,
+        "n": 12352
+      }
+    },
+    {
+      "source_name": "Country Code",
+      "normalized_header": "Country Code",
+      "missing_values": 0,
+      "unique_values": 123,
+      "xlsx_cell_types": {
+        "s": 21000
+      }
+    },
+    {
+      "source_name": " Cost",
+      "normalized_header": "Cost",
+      "missing_values": 0,
+      "unique_values": 22,
+      "xlsx_cell_types": {
+        "n": 21000
+      }
+    },
+    {
+      "source_name": "Sales",
+      "normalized_header": "Sales",
+      "missing_values": 0,
+      "unique_values": 22,
+      "xlsx_cell_types": {
+        "n": 21000
+      }
+    },
+    {
+      "source_name": "Quantity",
+      "normalized_header": "Quantity",
+      "missing_values": 0,
+      "unique_values": 3,
+      "xlsx_cell_types": {
+        "n": 21000
+      }
+    },
+    {
+      "source_name": "Discount",
+      "normalized_header": "Discount",
+      "missing_values": 0,
+      "unique_values": 31,
+      "xlsx_cell_types": {
+        "n": 21000
+      }
+    },
+    {
+      "source_name": "Delivery Cost",
+      "normalized_header": "Delivery Cost",
+      "missing_values": 0,
+      "unique_values": 958,
+      "xlsx_cell_types": {
+        "n": 21000
+      }
+    },
+    {
+      "source_name": "Course Name",
+      "normalized_header": "Course Name",
+      "missing_values": 0,
+      "unique_values": 6,
+      "xlsx_cell_types": {
+        "s": 21000
+      }
+    },
+    {
+      "source_name": "Cuisine Name",
+      "normalized_header": "Cuisine Name",
+      "missing_values": 0,
+      "unique_values": 3,
+      "xlsx_cell_types": {
+        "s": 21000
+      }
+    },
+    {
+      "source_name": "Starter Name",
+      "normalized_header": "Starter Name",
+      "missing_values": 0,
+      "unique_values": 6,
+      "xlsx_cell_types": {
+        "s": 21000
+      }
+    },
+    {
+      "source_name": "Desert Name",
+      "normalized_header": "Desert Name",
+      "missing_values": 0,
+      "unique_values": 6,
+      "xlsx_cell_types": {
+        "s": 21000
+      }
+    },
+    {
+      "source_name": "Drink",
+      "normalized_header": "Drink",
+      "missing_values": 0,
+      "unique_values": 6,
+      "xlsx_cell_types": {
+        "s": 21000
+      }
+    },
+    {
+      "source_name": "Sides",
+      "normalized_header": "Sides",
+      "missing_values": 0,
+      "unique_values": 6,
+      "xlsx_cell_types": {
+        "s": 21000
+      }
+    }
+  ],
+  "record_count": 21000,
+  "exact_duplicate_rows": 0,
+  "distinct_source_order_ids": 1000,
+  "source_order_id_multiplicities": {
+    "21": 1000
+  },
+  "source_order_ids_with_conflicting_rows": 1000,
+  "columns_varying_within_source_order_id": {
+    "Row Number": 1000,
+    "Order ID": 0,
+    "Order Date": 0,
+    "Delivery Date": 0,
+    "Customer ID": 0,
+    "Customer Name": 0,
+    "City": 0,
+    "Country": 0,
+    "Postal Code": 1000,
+    "Country Code": 0,
+    " Cost": 1000,
+    "Sales": 1000,
+    "Quantity": 0,
+    "Discount": 1000,
+    "Delivery Cost": 0,
+    "Course Name": 0,
+    "Cuisine Name": 0,
+    "Starter Name": 0,
+    "Desert Name": 0,
+    "Drink": 0,
+    "Sides": 0
+  },
+  "distinct_customers": 1000,
+  "distinct_menu_bundles": 72,
+  "delivery_before_order_count": 9366,
+  "negative_numeric_postal_codes": 3701,
+  "order_date_range": [
+    "2019-06-14",
+    "2023-01-06"
+  ],
+  "delivery_date_range": [
+    "2019-10-10",
+    "2023-01-07"
+  ],
+  "maximum_quantity": 3,
+  "total_quantity": 44625,
+  "financial_fields": {
+    "Cost": {
+      "minimum": "44.5700",
+      "maximum": "320.0000",
+      "source_xml_sum": "3087898.01999999999046",
+      "normalized_four_decimal_sum": "3087898.0200",
+      "sum_if_each_row_rounded_to_cents": "3087898.02",
+      "values_with_genuine_fractional_cents": 0
+    },
+    "Sales": {
+      "minimum": "66.8550",
+      "maximum": "480.0000",
+      "source_xml_sum": "4631847.029999999984750",
+      "normalized_four_decimal_sum": "4631847.0300",
+      "sum_if_each_row_rounded_to_cents": "4631847.04",
+      "values_with_genuine_fractional_cents": 5726
+    },
+    "Discount": {
+      "minimum": "9.1200",
+      "maximum": "99.2400",
+      "source_xml_sum": "1032361.9799999999980366",
+      "normalized_four_decimal_sum": "1032361.9800",
+      "sum_if_each_row_rounded_to_cents": "1032361.98",
+      "values_with_genuine_fractional_cents": 0
+    },
+    "DeliveryCost": {
+      "minimum": "1.1100",
+      "maximum": "99.9100",
+      "source_xml_sum": "1070484.6600000000001512",
+      "normalized_four_decimal_sum": "1070484.6600",
+      "sum_if_each_row_rounded_to_cents": "1070484.66",
+      "values_with_genuine_fractional_cents": 0
+    }
+  },
+  "transformations": [
+    "Strip leading whitespace from Cost header only.",
+    "Map source Desert Name spelling to internal DessertName without changing values.",
+    "Convert workbook date serials with its declared 1900 date system.",
+    "Preserve all 21,000 source rows and nonunique source order IDs; use SourceRowNumber for row identity.",
+    "Preserve PostalCodeRaw as text, including negative/fractional values; no invented valid postal codes.",
+    "Quantize financial values to four decimal places using Decimal ROUND_HALF_UP, preserving genuine half cents; retain original workbook unmodified.",
+    "Preserve delivery-before-order dates and flag them for analysis; do not invent corrected dates."
+  ]
+}

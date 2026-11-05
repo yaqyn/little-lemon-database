@@ -1,0 +1,211 @@
+{
+  "verified_at_utc": "2026-11-05T19:03:34.308569+00:00",
+  "database": {
+    "DatabaseName": "little_lemon_database",
+    "ServerVersion": "8.4.13",
+    "row_counts": {
+      "Customers": 1000,
+      "MenuItems": 30,
+      "Menus": 72,
+      "MenuComponents": 360,
+      "Orders": 21000,
+      "OrderDeliveryStatus": 21000,
+      "Bookings": 4
+    },
+    "summary": {
+      "WorkbookRecords": 21000,
+      "DistinctSourceOrderIDs": 1000,
+      "MaxQuantity": 3,
+      "TotalQuantity": "44625",
+      "SalesMeasureTotal": "4631847.0300",
+      "CostMeasureTotal": "3087898.0200",
+      "DiscountMeasureTotal": "1032361.9800",
+      "DeliveryCostMeasureTotal": "1070484.6600"
+    },
+    "delivery_before_order_count": 9366,
+    "procedures": [
+      "AddBooking",
+      "CancelBooking",
+      "GetMaxQuantity",
+      "ManageBooking",
+      "UpdateBooking"
+    ]
+  },
+  "restricted_account_scope": "little_lemon_database.*",
+  "tests": {
+    "run": 48,
+    "mysql_integration": 33,
+    "offline_unit_and_workbook": 15,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "duration_seconds": 21.109
+  },
+  "notebook": {
+    "executed_at_utc": "2026-11-05T18:59:35.492830+00:00",
+    "code_cells": 10,
+    "executed_code_cells": 10,
+    "unexpected_errors": 0,
+    "kernel_python": "3.14.8",
+    "successful_full_runs": 2
+  },
+  "er_diagram": {
+    "source": "live MySQL information_schema",
+    "schema_alignment": true,
+    "png_export": true,
+    "pdf_export": true,
+    "pdf_pages": 1,
+    "visual_review": "PNG and rasterized PDF inspected; all tables and relationships legible."
+  },
+  "native_tools": {
+    "mysql_workbench_executable": null,
+    "tableau_executable": null,
+    "mwb": "NOT VERIFIED; not generated",
+    "tableau_workbook": "NOT VERIFIED; not generated"
+  },
+  "dataset": {
+    "source_file": "data/source/LittleLemon_data.xlsx",
+    "source_sha256": "2bd49d02905992f28762442ad8eb439c648a6ab66d055f9cdb31b79cab438cfb",
+    "source_rows": 21000,
+    "distinct_source_order_ids": 1000,
+    "table_counts": {
+      "Customers": 1000,
+      "MenuItems": 30,
+      "Menus": 72,
+      "MenuComponents": 360,
+      "Orders": 21000,
+      "OrderDeliveryStatus": 21000
+    },
+    "max_quantity": 3,
+    "total_quantity": 44625,
+    "source_sales_sum": "4631847.0300",
+    "source_cost_sum": "3087898.0200",
+    "source_discount_sum": "1032361.9800",
+    "source_delivery_cost_sum": "1070484.6600",
+    "delivery_before_order_count": 9366,
+    "order_date_range": [
+      "2019-06-14",
+      "2023-01-06"
+    ],
+    "delivery_date_range": [
+      "2019-10-10",
+      "2023-01-07"
+    ],
+    "seed_customer_ids": [
+      "00-090-3491",
+      "00-352-9063",
+      "00-381-6823",
+      "00-435-7006"
+    ],
+    "currency": "Not specified in supplied workbook; no currency is invented.",
+    "identity_note": "Orders.OrderID is the unique source Row Number; SourceOrderID preserves the original nonunique Order ID. All 21,000 workbook rows are retained."
+  },
+  "tableau_exports": {
+    "order_facts.csv": {
+      "rows": 21000,
+      "columns": [
+        "OrderRecordID",
+        "SourceOrderID",
+        "CustomerID",
+        "CustomerName",
+        "City",
+        "Country",
+        "CountryCode",
+        "OrderDate",
+        "DeliveryDate",
+        "PostalCodeRaw",
+        "CuisineName",
+        "CourseName",
+        "StarterName",
+        "DessertName",
+        "DrinkName",
+        "SideName",
+        "Quantity",
+        "Cost",
+        "Sales",
+        "Discount",
+        "DeliveryCost",
+        "DeliveryBeforeOrder"
+      ],
+      "sha256": "7ae2e7690b8a9b63d5efa1a2ebb4ce6a82c2ec48019fc4c935bc9e8c3cbfb83f"
+    },
+    "bookings.csv": {
+      "rows": 4,
+      "columns": [
+        "BookingID",
+        "CustomerID",
+        "CustomerName",
+        "BookingDate",
+        "TableNo",
+        "DataOrigin"
+      ],
+      "sha256": "3f3c7729a88e217c8bc34622a6110a3b3d114ec88d403eb7a25e747e5487f5e0"
+    },
+    "menu_components.csv": {
+      "rows": 360,
+      "columns": [
+        "MenuID",
+        "CuisineName",
+        "ComponentRole",
+        "ItemID",
+        "ItemName"
+      ],
+      "sha256": "7eab560ee55f36e552681733e66147d4809c1ed2164a564066aa5763debc697a"
+    },
+    "sales_by_month.csv": {
+      "rows": 44,
+      "columns": [
+        "OrderMonth",
+        "WorkbookRecords",
+        "SalesMeasureTotal",
+        "QuantityTotal"
+      ],
+      "sha256": "3a69a3e49540d43fdc8360b2077a39d9d07f4ef8e05d046afc5f36d56366f338"
+    },
+    "sales_by_cuisine.csv": {
+      "rows": 3,
+      "columns": [
+        "CuisineName",
+        "WorkbookRecords",
+        "SalesMeasureTotal",
+        "QuantityTotal"
+      ],
+      "sha256": "1718b4e55d8de6a726492ee91bd9ef0397db3046a47d58a9a5fe3980d1dbbfd8"
+    },
+    "provenance": {
+      "source": "data/source/LittleLemon_data.xlsx",
+      "source_sha256": "2bd49d02905992f28762442ad8eb439c648a6ab66d055f9cdb31b79cab438cfb",
+      "grain": "order_facts has exactly one row per workbook Row Number, not one row per distinct source Order ID.",
+      "currency": "Not supplied; chart axes must use source units, not an invented currency.",
+      "tableau_execution": "NOT VERIFIED: Tableau Desktop is not accessible. CSV exports are actual verified database outputs."
+    }
+  },
+  "dependency_audit": "No known vulnerabilities found",
+  "preservation": {
+    "projects": {
+      "little-lemon-django-capstone": {
+        "commit": "3b1f6602caa9c908821be6dd1724611faa8ccdc7",
+        "tracked_files_compared": 69,
+        "source_unchanged": true,
+        "worktree_clean": true
+      },
+      "Little Lemon analysis and sales report": {
+        "commit": "a592230691aa331dbec8fed001a10471da8de8ac",
+        "tracked_files_compared": 44,
+        "source_unchanged": true,
+        "worktree_clean": true
+      }
+    },
+    "databases": {
+      "littlelemon": {
+        "tables_compared": 14,
+        "records_unchanged": true
+      },
+      "little_lemon_sales": {
+        "tables_compared": 7,
+        "records_unchanged": true
+      }
+    },
+    "method": "Read-only before/after SHA256 comparisons of every tracked source file and sorted rows in each pre-existing table. Private row values and fingerprints are not published."
+  }
+}

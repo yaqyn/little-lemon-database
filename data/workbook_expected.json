@@ -1,0 +1,37 @@
+{
+  "source_file": "data/source/LittleLemon_data.xlsx",
+  "source_sha256": "2bd49d02905992f28762442ad8eb439c648a6ab66d055f9cdb31b79cab438cfb",
+  "source_rows": 21000,
+  "distinct_source_order_ids": 1000,
+  "table_counts": {
+    "Customers": 1000,
+    "MenuItems": 30,
+    "Menus": 72,
+    "MenuComponents": 360,
+    "Orders": 21000,
+    "OrderDeliveryStatus": 21000
+  },
+  "max_quantity": 3,
+  "total_quantity": 44625,
+  "source_sales_sum": "4631847.0300",
+  "source_cost_sum": "3087898.0200",
+  "source_discount_sum": "1032361.9800",
+  "source_delivery_cost_sum": "1070484.6600",
+  "delivery_before_order_count": 9366,
+  "order_date_range": [
+    "2019-06-14",
+    "2023-01-06"
+  ],
+  "delivery_date_range": [
+    "2019-10-10",
+    "2023-01-07"
+  ],
+  "seed_customer_ids": [
+    "00-090-3491",
+    "00-352-9063",
+    "00-381-6823",
+    "00-435-7006"
+  ],
+  "currency": "Not specified in supplied workbook; no currency is invented.",
+  "identity_note": "Orders.OrderID is the unique source Row Number; SourceOrderID preserves the original nonunique Order ID. All 21,000 workbook rows are retained."
+}

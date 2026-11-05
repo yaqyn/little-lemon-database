@@ -1,0 +1,361 @@
+MenuID,CuisineName,ComponentRole,ItemID,ItemName
+1,Greek,Course,3,Greek salad
+1,Greek,Dessert,10,Greek yoghurt
+1,Greek,Drink,14,Athens White wine
+1,Greek,Side,24,Tapas
+1,Greek,Starter,25,Falafel
+2,Greek,Course,3,Greek salad
+2,Greek,Dessert,10,Greek yoghurt
+2,Greek,Drink,14,Athens White wine
+2,Greek,Side,24,Tapas
+2,Greek,Starter,26,Flatbread
+3,Greek,Course,3,Greek salad
+3,Greek,Dessert,10,Greek yoghurt
+3,Greek,Drink,14,Athens White wine
+3,Greek,Side,24,Tapas
+3,Greek,Starter,27,Hummus
+4,Greek,Course,3,Greek salad
+4,Greek,Dessert,10,Greek yoghurt
+4,Greek,Drink,14,Athens White wine
+4,Greek,Side,24,Tapas
+4,Greek,Starter,28,Minestrone
+5,Greek,Course,3,Greek salad
+5,Greek,Dessert,10,Greek yoghurt
+5,Greek,Drink,14,Athens White wine
+5,Greek,Side,24,Tapas
+5,Greek,Starter,29,Olives
+6,Greek,Course,3,Greek salad
+6,Greek,Dessert,10,Greek yoghurt
+6,Greek,Drink,14,Athens White wine
+6,Greek,Side,24,Tapas
+6,Greek,Starter,30,Tomato bread
+7,Greek,Course,4,Kabasa
+7,Greek,Dessert,12,Turkish yoghurt
+7,Greek,Drink,13,Ankara White Wine
+7,Greek,Side,22,Meatballs
+7,Greek,Starter,25,Falafel
+8,Greek,Course,4,Kabasa
+8,Greek,Dessert,12,Turkish yoghurt
+8,Greek,Drink,13,Ankara White Wine
+8,Greek,Side,22,Meatballs
+8,Greek,Starter,26,Flatbread
+9,Greek,Course,4,Kabasa
+9,Greek,Dessert,12,Turkish yoghurt
+9,Greek,Drink,13,Ankara White Wine
+9,Greek,Side,22,Meatballs
+9,Greek,Starter,27,Hummus
+10,Greek,Course,4,Kabasa
+10,Greek,Dessert,12,Turkish yoghurt
+10,Greek,Drink,13,Ankara White Wine
+10,Greek,Side,22,Meatballs
+10,Greek,Starter,28,Minestrone
+11,Greek,Course,4,Kabasa
+11,Greek,Dessert,12,Turkish yoghurt
+11,Greek,Drink,13,Ankara White Wine
+11,Greek,Side,22,Meatballs
+11,Greek,Starter,29,Olives
+12,Greek,Course,4,Kabasa
+12,Greek,Dessert,12,Turkish yoghurt
+12,Greek,Drink,13,Ankara White Wine
+12,Greek,Side,22,Meatballs
+12,Greek,Starter,30,Tomato bread
+13,Greek,Course,5,Pizza
+13,Greek,Dessert,9,Cheesecake
+13,Greek,Drink,16,Italian Coffee
+13,Greek,Side,19,Bruschetta
+13,Greek,Starter,25,Falafel
+14,Greek,Course,5,Pizza
+14,Greek,Dessert,9,Cheesecake
+14,Greek,Drink,16,Italian Coffee
+14,Greek,Side,19,Bruschetta
+14,Greek,Starter,26,Flatbread
+15,Greek,Course,5,Pizza
+15,Greek,Dessert,9,Cheesecake
+15,Greek,Drink,16,Italian Coffee
+15,Greek,Side,19,Bruschetta
+15,Greek,Starter,27,Hummus
+16,Greek,Course,5,Pizza
+16,Greek,Dessert,9,Cheesecake
+16,Greek,Drink,16,Italian Coffee
+16,Greek,Side,19,Bruschetta
+16,Greek,Starter,28,Minestrone
+17,Greek,Course,5,Pizza
+17,Greek,Dessert,9,Cheesecake
+17,Greek,Drink,16,Italian Coffee
+17,Greek,Side,19,Bruschetta
+17,Greek,Starter,29,Olives
+18,Greek,Course,5,Pizza
+18,Greek,Dessert,9,Cheesecake
+18,Greek,Drink,16,Italian Coffee
+18,Greek,Side,19,Bruschetta
+18,Greek,Starter,30,Tomato bread
+19,Italian,Course,1,Bean soup
+19,Italian,Dessert,11,Ice cream
+19,Italian,Drink,15,Corfu Red Wine
+19,Italian,Side,23,Potato salad
+19,Italian,Starter,25,Falafel
+20,Italian,Course,1,Bean soup
+20,Italian,Dessert,11,Ice cream
+20,Italian,Drink,15,Corfu Red Wine
+20,Italian,Side,23,Potato salad
+20,Italian,Starter,26,Flatbread
+21,Italian,Course,1,Bean soup
+21,Italian,Dessert,11,Ice cream
+21,Italian,Drink,15,Corfu Red Wine
+21,Italian,Side,23,Potato salad
+21,Italian,Starter,27,Hummus
+22,Italian,Course,1,Bean soup
+22,Italian,Dessert,11,Ice cream
+22,Italian,Drink,15,Corfu Red Wine
+22,Italian,Side,23,Potato salad
+22,Italian,Starter,28,Minestrone
+23,Italian,Course,1,Bean soup
+23,Italian,Dessert,11,Ice cream
+23,Italian,Drink,15,Corfu Red Wine
+23,Italian,Side,23,Potato salad
+23,Italian,Starter,29,Olives
+24,Italian,Course,1,Bean soup
+24,Italian,Dessert,11,Ice cream
+24,Italian,Drink,15,Corfu Red Wine
+24,Italian,Side,23,Potato salad
+24,Italian,Starter,30,Tomato bread
+25,Italian,Course,2,Carbonara
+25,Italian,Dessert,7,Affogato
+25,Italian,Drink,17,Roma Red wine
+25,Italian,Side,20,Focaccia
+25,Italian,Starter,25,Falafel
+26,Italian,Course,2,Carbonara
+26,Italian,Dessert,7,Affogato
+26,Italian,Drink,17,Roma Red wine
+26,Italian,Side,20,Focaccia
+26,Italian,Starter,26,Flatbread
+27,Italian,Course,2,Carbonara
+27,Italian,Dessert,7,Affogato
+27,Italian,Drink,17,Roma Red wine
+27,Italian,Side,20,Focaccia
+27,Italian,Starter,27,Hummus
+28,Italian,Course,2,Carbonara
+28,Italian,Dessert,7,Affogato
+28,Italian,Drink,17,Roma Red wine
+28,Italian,Side,20,Focaccia
+28,Italian,Starter,28,Minestrone
+29,Italian,Course,2,Carbonara
+29,Italian,Dessert,7,Affogato
+29,Italian,Drink,17,Roma Red wine
+29,Italian,Side,20,Focaccia
+29,Italian,Starter,29,Olives
+30,Italian,Course,2,Carbonara
+30,Italian,Dessert,7,Affogato
+30,Italian,Drink,17,Roma Red wine
+30,Italian,Side,20,Focaccia
+30,Italian,Starter,30,Tomato bread
+31,Italian,Course,3,Greek salad
+31,Italian,Dessert,10,Greek yoghurt
+31,Italian,Drink,14,Athens White wine
+31,Italian,Side,24,Tapas
+31,Italian,Starter,25,Falafel
+32,Italian,Course,3,Greek salad
+32,Italian,Dessert,10,Greek yoghurt
+32,Italian,Drink,14,Athens White wine
+32,Italian,Side,24,Tapas
+32,Italian,Starter,26,Flatbread
+33,Italian,Course,3,Greek salad
+33,Italian,Dessert,10,Greek yoghurt
+33,Italian,Drink,14,Athens White wine
+33,Italian,Side,24,Tapas
+33,Italian,Starter,27,Hummus
+34,Italian,Course,3,Greek salad
+34,Italian,Dessert,10,Greek yoghurt
+34,Italian,Drink,14,Athens White wine
+34,Italian,Side,24,Tapas
+34,Italian,Starter,28,Minestrone
+35,Italian,Course,3,Greek salad
+35,Italian,Dessert,10,Greek yoghurt
+35,Italian,Drink,14,Athens White wine
+35,Italian,Side,24,Tapas
+35,Italian,Starter,29,Olives
+36,Italian,Course,3,Greek salad
+36,Italian,Dessert,10,Greek yoghurt
+36,Italian,Drink,14,Athens White wine
+36,Italian,Side,24,Tapas
+36,Italian,Starter,30,Tomato bread
+37,Italian,Course,4,Kabasa
+37,Italian,Dessert,12,Turkish yoghurt
+37,Italian,Drink,13,Ankara White Wine
+37,Italian,Side,22,Meatballs
+37,Italian,Starter,25,Falafel
+38,Italian,Course,4,Kabasa
+38,Italian,Dessert,12,Turkish yoghurt
+38,Italian,Drink,13,Ankara White Wine
+38,Italian,Side,22,Meatballs
+38,Italian,Starter,26,Flatbread
+39,Italian,Course,4,Kabasa
+39,Italian,Dessert,12,Turkish yoghurt
+39,Italian,Drink,13,Ankara White Wine
+39,Italian,Side,22,Meatballs
+39,Italian,Starter,27,Hummus
+40,Italian,Course,4,Kabasa
+40,Italian,Dessert,12,Turkish yoghurt
+40,Italian,Drink,13,Ankara White Wine
+40,Italian,Side,22,Meatballs
+40,Italian,Starter,28,Minestrone
+41,Italian,Course,4,Kabasa
+41,Italian,Dessert,12,Turkish yoghurt
+41,Italian,Drink,13,Ankara White Wine
+41,Italian,Side,22,Meatballs
+41,Italian,Starter,29,Olives
+42,Italian,Course,4,Kabasa
+42,Italian,Dessert,12,Turkish yoghurt
+42,Italian,Drink,13,Ankara White Wine
+42,Italian,Side,22,Meatballs
+42,Italian,Starter,30,Tomato bread
+43,Italian,Course,5,Pizza
+43,Italian,Dessert,9,Cheesecake
+43,Italian,Drink,16,Italian Coffee
+43,Italian,Side,19,Bruschetta
+43,Italian,Starter,25,Falafel
+44,Italian,Course,5,Pizza
+44,Italian,Dessert,9,Cheesecake
+44,Italian,Drink,16,Italian Coffee
+44,Italian,Side,19,Bruschetta
+44,Italian,Starter,26,Flatbread
+45,Italian,Course,5,Pizza
+45,Italian,Dessert,9,Cheesecake
+45,Italian,Drink,16,Italian Coffee
+45,Italian,Side,19,Bruschetta
+45,Italian,Starter,27,Hummus
+46,Italian,Course,5,Pizza
+46,Italian,Dessert,9,Cheesecake
+46,Italian,Drink,16,Italian Coffee
+46,Italian,Side,19,Bruschetta
+46,Italian,Starter,28,Minestrone
+47,Italian,Course,5,Pizza
+47,Italian,Dessert,9,Cheesecake
+47,Italian,Drink,16,Italian Coffee
+47,Italian,Side,19,Bruschetta
+47,Italian,Starter,29,Olives
+48,Italian,Course,5,Pizza
+48,Italian,Dessert,9,Cheesecake
+48,Italian,Drink,16,Italian Coffee
+48,Italian,Side,19,Bruschetta
+48,Italian,Starter,30,Tomato bread
+49,Italian,Course,6,Shwarma
+49,Italian,Dessert,8,Baklava
+49,Italian,Drink,18,Turkish Coffee
+49,Italian,Side,21,Fries
+49,Italian,Starter,25,Falafel
+50,Italian,Course,6,Shwarma
+50,Italian,Dessert,8,Baklava
+50,Italian,Drink,18,Turkish Coffee
+50,Italian,Side,21,Fries
+50,Italian,Starter,26,Flatbread
+51,Italian,Course,6,Shwarma
+51,Italian,Dessert,8,Baklava
+51,Italian,Drink,18,Turkish Coffee
+51,Italian,Side,21,Fries
+51,Italian,Starter,27,Hummus
+52,Italian,Course,6,Shwarma
+52,Italian,Dessert,8,Baklava
+52,Italian,Drink,18,Turkish Coffee
+52,Italian,Side,21,Fries
+52,Italian,Starter,28,Minestrone
+53,Italian,Course,6,Shwarma
+53,Italian,Dessert,8,Baklava
+53,Italian,Drink,18,Turkish Coffee
+53,Italian,Side,21,Fries
+53,Italian,Starter,29,Olives
+54,Italian,Course,6,Shwarma
+54,Italian,Dessert,8,Baklava
+54,Italian,Drink,18,Turkish Coffee
+54,Italian,Side,21,Fries
+54,Italian,Starter,30,Tomato bread
+55,Turkish,Course,1,Bean soup
+55,Turkish,Dessert,11,Ice cream
+55,Turkish,Drink,15,Corfu Red Wine
+55,Turkish,Side,23,Potato salad
+55,Turkish,Starter,25,Falafel
+56,Turkish,Course,1,Bean soup
+56,Turkish,Dessert,11,Ice cream
+56,Turkish,Drink,15,Corfu Red Wine
+56,Turkish,Side,23,Potato salad
+56,Turkish,Starter,26,Flatbread
+57,Turkish,Course,1,Bean soup
+57,Turkish,Dessert,11,Ice cream
+57,Turkish,Drink,15,Corfu Red Wine
+57,Turkish,Side,23,Potato salad
+57,Turkish,Starter,27,Hummus
+58,Turkish,Course,1,Bean soup
+58,Turkish,Dessert,11,Ice cream
+58,Turkish,Drink,15,Corfu Red Wine
+58,Turkish,Side,23,Potato salad
+58,Turkish,Starter,28,Minestrone
+59,Turkish,Course,1,Bean soup
+59,Turkish,Dessert,11,Ice cream
+59,Turkish,Drink,15,Corfu Red Wine
+59,Turkish,Side,23,Potato salad
+59,Turkish,Starter,29,Olives
+60,Turkish,Course,1,Bean soup
+60,Turkish,Dessert,11,Ice cream
+60,Turkish,Drink,15,Corfu Red Wine
+60,Turkish,Side,23,Potato salad
+60,Turkish,Starter,30,Tomato bread
+61,Turkish,Course,2,Carbonara
+61,Turkish,Dessert,7,Affogato
+61,Turkish,Drink,17,Roma Red wine
+61,Turkish,Side,20,Focaccia
+61,Turkish,Starter,25,Falafel
+62,Turkish,Course,2,Carbonara
+62,Turkish,Dessert,7,Affogato
+62,Turkish,Drink,17,Roma Red wine
+62,Turkish,Side,20,Focaccia
+62,Turkish,Starter,26,Flatbread
+63,Turkish,Course,2,Carbonara
+63,Turkish,Dessert,7,Affogato
+63,Turkish,Drink,17,Roma Red wine
+63,Turkish,Side,20,Focaccia
+63,Turkish,Starter,27,Hummus
+64,Turkish,Course,2,Carbonara
+64,Turkish,Dessert,7,Affogato
+64,Turkish,Drink,17,Roma Red wine
+64,Turkish,Side,20,Focaccia
+64,Turkish,Starter,28,Minestrone
+65,Turkish,Course,2,Carbonara
+65,Turkish,Dessert,7,Affogato
+65,Turkish,Drink,17,Roma Red wine
+65,Turkish,Side,20,Focaccia
+65,Turkish,Starter,29,Olives
+66,Turkish,Course,2,Carbonara
+66,Turkish,Dessert,7,Affogato
+66,Turkish,Drink,17,Roma Red wine
+66,Turkish,Side,20,Focaccia
+66,Turkish,Starter,30,Tomato bread
+67,Turkish,Course,6,Shwarma
+67,Turkish,Dessert,8,Baklava
+67,Turkish,Drink,18,Turkish Coffee
+67,Turkish,Side,21,Fries
+67,Turkish,Starter,25,Falafel
+68,Turkish,Course,6,Shwarma
+68,Turkish,Dessert,8,Baklava
+68,Turkish,Drink,18,Turkish Coffee
+68,Turkish,Side,21,Fries
+68,Turkish,Starter,26,Flatbread
+69,Turkish,Course,6,Shwarma
+69,Turkish,Dessert,8,Baklava
+69,Turkish,Drink,18,Turkish Coffee
+69,Turkish,Side,21,Fries
+69,Turkish,Starter,27,Hummus
+70,Turkish,Course,6,Shwarma
+70,Turkish,Dessert,8,Baklava
+70,Turkish,Drink,18,Turkish Coffee
+70,Turkish,Side,21,Fries
+70,Turkish,Starter,28,Minestrone
+71,Turkish,Course,6,Shwarma
+71,Turkish,Dessert,8,Baklava
+71,Turkish,Drink,18,Turkish Coffee
+71,Turkish,Side,21,Fries
+71,Turkish,Starter,29,Olives
+72,Turkish,Course,6,Shwarma
+72,Turkish,Dessert,8,Baklava
+72,Turkish,Drink,18,Turkish Coffee
+72,Turkish,Side,21,Fries
+72,Turkish,Starter,30,Tomato bread

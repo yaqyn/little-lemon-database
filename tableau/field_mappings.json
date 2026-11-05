@@ -1,0 +1,112 @@
+{
+  "OrderRecordID": {
+    "tableau_type": "Number (whole)",
+    "role": "Dimension",
+    "note": "Unique source Row Number, not the original source order ID."
+  },
+  "SourceOrderID": {
+    "tableau_type": "String",
+    "role": "Dimension",
+    "note": ""
+  },
+  "CustomerID": {
+    "tableau_type": "String",
+    "role": "Dimension",
+    "note": ""
+  },
+  "CustomerName": {
+    "tableau_type": "String",
+    "role": "Dimension",
+    "note": ""
+  },
+  "City": {
+    "tableau_type": "String",
+    "role": "Dimension",
+    "note": ""
+  },
+  "Country": {
+    "tableau_type": "String",
+    "role": "Dimension",
+    "note": ""
+  },
+  "CountryCode": {
+    "tableau_type": "String",
+    "role": "Dimension",
+    "note": ""
+  },
+  "OrderDate": {
+    "tableau_type": "Date",
+    "role": "Dimension",
+    "note": ""
+  },
+  "DeliveryDate": {
+    "tableau_type": "Date",
+    "role": "Dimension",
+    "note": ""
+  },
+  "PostalCodeRaw": {
+    "tableau_type": "String",
+    "role": "Dimension",
+    "note": "Unvalidated original postal text; do not assign a geographic postal role."
+  },
+  "CuisineName": {
+    "tableau_type": "String",
+    "role": "Dimension",
+    "note": ""
+  },
+  "CourseName": {
+    "tableau_type": "String",
+    "role": "Dimension",
+    "note": ""
+  },
+  "StarterName": {
+    "tableau_type": "String",
+    "role": "Dimension",
+    "note": ""
+  },
+  "DessertName": {
+    "tableau_type": "String",
+    "role": "Dimension",
+    "note": ""
+  },
+  "DrinkName": {
+    "tableau_type": "String",
+    "role": "Dimension",
+    "note": ""
+  },
+  "SideName": {
+    "tableau_type": "String",
+    "role": "Dimension",
+    "note": ""
+  },
+  "Quantity": {
+    "tableau_type": "Number (whole)",
+    "role": "Measure",
+    "note": ""
+  },
+  "Cost": {
+    "tableau_type": "Number (decimal)",
+    "role": "Measure",
+    "note": "Source units; currency/discount interpretation not supplied; preserve four decimals."
+  },
+  "Sales": {
+    "tableau_type": "Number (decimal)",
+    "role": "Measure",
+    "note": "Source units; currency/discount interpretation not supplied; preserve four decimals."
+  },
+  "Discount": {
+    "tableau_type": "Number (decimal)",
+    "role": "Measure",
+    "note": "Source units; currency/discount interpretation not supplied; preserve four decimals."
+  },
+  "DeliveryCost": {
+    "tableau_type": "Number (decimal)",
+    "role": "Measure",
+    "note": "Source units; currency/discount interpretation not supplied; preserve four decimals."
+  },
+  "DeliveryBeforeOrder": {
+    "tableau_type": "Number (whole)",
+    "role": "Dimension",
+    "note": "0/1 anomaly flag; preserve source dates."
+  }
+}

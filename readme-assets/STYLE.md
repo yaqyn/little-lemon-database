@@ -1,0 +1,1 @@
+The editable SVG cover uses forest green #24483e, lemon yellow #f4ce14, white #ffffff and sage #cad7c4. The linked-table motif is decorative artwork; the separate diagrams/ exports show the exact deployed schema. Canonical section icons reuse the existing Little Lemon README palette and geometry without changing either existing project.

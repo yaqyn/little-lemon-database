@@ -1,0 +1,38 @@
+name: MySQL workbook import and procedure tests
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    services:
+      mysql:
+        image: mysql:8.4
+        env:
+          MYSQL_ROOT_PASSWORD: ci-only-root-password
+          MYSQL_DATABASE: little_lemon_database
+          MYSQL_USER: assignment_ci
+          MYSQL_PASSWORD: ci-only-assignment-password
+        ports: ["3306:3306"]
+        options: >-
+          --health-cmd="mysqladmin ping -h localhost --silent"
+          --health-interval=5s --health-timeout=5s --health-retries=30
+    env:
+      MYSQL_HOST: 127.0.0.1
+      MYSQL_PORT: "3306"
+      MYSQL_USER: assignment_ci
+      MYSQL_PASSWORD: ci-only-assignment-password
+      MYSQL_DATABASE: little_lemon_database
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.14'
+      - run: sudo apt-get update && sudo apt-get install -y graphviz
+      - run: pip install -r requirements.lock.txt
+      - run: python python/verify_database.py --setup
+      - run: python scripts/generate_er.py
+      - run: python -m unittest discover -v
+      - run: python scripts/execute_notebook.py
+      - run: python -m compileall -q python scripts tests

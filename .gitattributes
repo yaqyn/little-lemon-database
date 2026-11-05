@@ -1,0 +1,4 @@
+# Preserve library-generated vector formatting.
+output/*.svg linguist-generated=true -whitespace
+# Keep exported CSV bytes identical to their checksum manifests.
+tableau/*.csv -text whitespace=cr-at-eol

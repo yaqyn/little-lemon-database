@@ -1,0 +1,5 @@
+BookingID,CustomerID,CustomerName,BookingDate,TableNo,DataOrigin
+1,00-090-3491,Bradford Rafe,2022-10-10,1,Supplemental demo booking fixture
+2,00-352-9063,Sharon Lazare,2022-11-12,3,Supplemental demo booking fixture
+3,00-381-6823,Eba Harriagn,2022-10-11,2,Supplemental demo booking fixture
+4,00-435-7006,Silas Asson,2022-10-13,2,Supplemental demo booking fixture

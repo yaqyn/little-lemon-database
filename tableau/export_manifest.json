@@ -1,0 +1,80 @@
+{
+  "order_facts.csv": {
+    "rows": 21000,
+    "columns": [
+      "OrderRecordID",
+      "SourceOrderID",
+      "CustomerID",
+      "CustomerName",
+      "City",
+      "Country",
+      "CountryCode",
+      "OrderDate",
+      "DeliveryDate",
+      "PostalCodeRaw",
+      "CuisineName",
+      "CourseName",
+      "StarterName",
+      "DessertName",
+      "DrinkName",
+      "SideName",
+      "Quantity",
+      "Cost",
+      "Sales",
+      "Discount",
+      "DeliveryCost",
+      "DeliveryBeforeOrder"
+    ],
+    "sha256": "7ae2e7690b8a9b63d5efa1a2ebb4ce6a82c2ec48019fc4c935bc9e8c3cbfb83f"
+  },
+  "bookings.csv": {
+    "rows": 4,
+    "columns": [
+      "BookingID",
+      "CustomerID",
+      "CustomerName",
+      "BookingDate",
+      "TableNo",
+      "DataOrigin"
+    ],
+    "sha256": "3f3c7729a88e217c8bc34622a6110a3b3d114ec88d403eb7a25e747e5487f5e0"
+  },
+  "menu_components.csv": {
+    "rows": 360,
+    "columns": [
+      "MenuID",
+      "CuisineName",
+      "ComponentRole",
+      "ItemID",
+      "ItemName"
+    ],
+    "sha256": "7eab560ee55f36e552681733e66147d4809c1ed2164a564066aa5763debc697a"
+  },
+  "sales_by_month.csv": {
+    "rows": 44,
+    "columns": [
+      "OrderMonth",
+      "WorkbookRecords",
+      "SalesMeasureTotal",
+      "QuantityTotal"
+    ],
+    "sha256": "3a69a3e49540d43fdc8360b2077a39d9d07f4ef8e05d046afc5f36d56366f338"
+  },
+  "sales_by_cuisine.csv": {
+    "rows": 3,
+    "columns": [
+      "CuisineName",
+      "WorkbookRecords",
+      "SalesMeasureTotal",
+      "QuantityTotal"
+    ],
+    "sha256": "1718b4e55d8de6a726492ee91bd9ef0397db3046a47d58a9a5fe3980d1dbbfd8"
+  },
+  "provenance": {
+    "source": "data/source/LittleLemon_data.xlsx",
+    "source_sha256": "2bd49d02905992f28762442ad8eb439c648a6ab66d055f9cdb31b79cab438cfb",
+    "grain": "order_facts has exactly one row per workbook Row Number, not one row per distinct source Order ID.",
+    "currency": "Not supplied; chart axes must use source units, not an invented currency.",
+    "tableau_execution": "NOT VERIFIED: Tableau Desktop is not accessible. CSV exports are actual verified database outputs."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "projects": {
+    "little-lemon-django-capstone": {
+      "commit": "3b1f6602caa9c908821be6dd1724611faa8ccdc7",
+      "tracked_files_compared": 69,
+      "source_unchanged": true,
+      "worktree_clean": true
+    },
+    "Little Lemon analysis and sales report": {
+      "commit": "a592230691aa331dbec8fed001a10471da8de8ac",
+      "tracked_files_compared": 44,
+      "source_unchanged": true,
+      "worktree_clean": true
+    }
+  },
+  "databases": {
+    "littlelemon": {
+      "tables_compared": 14,
+      "records_unchanged": true
+    },
+    "little_lemon_sales": {
+      "tables_compared": 7,
+      "records_unchanged": true
+    }
+  },
+  "method": "Read-only before/after SHA256 comparisons of every tracked source file and sorted rows in each pre-existing table. Private row values and fingerprints are not published."
+}

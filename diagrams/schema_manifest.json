@@ -1,0 +1,464 @@
+{
+  "database": "little_lemon_database",
+  "tables": {
+    "Bookings": [
+      {
+        "name": "BookingID",
+        "type": "int unsigned",
+        "nullable": false,
+        "key": "PRI",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "CustomerID",
+        "type": "varchar(32)",
+        "nullable": false,
+        "key": "MUL",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "BookingDate",
+        "type": "date",
+        "nullable": false,
+        "key": "MUL",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "TableNo",
+        "type": "tinyint unsigned",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      }
+    ],
+    "Customers": [
+      {
+        "name": "CustomerID",
+        "type": "varchar(32)",
+        "nullable": false,
+        "key": "PRI",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "CustomerName",
+        "type": "varchar(150)",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "City",
+        "type": "varchar(150)",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "Country",
+        "type": "varchar(150)",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "CountryCode",
+        "type": "varchar(8)",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      }
+    ],
+    "MenuComponents": [
+      {
+        "name": "MenuID",
+        "type": "int unsigned",
+        "nullable": false,
+        "key": "PRI",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "ComponentRole",
+        "type": "varchar(20)",
+        "nullable": false,
+        "key": "PRI",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "ItemID",
+        "type": "int unsigned",
+        "nullable": false,
+        "key": "MUL",
+        "default": null,
+        "extra": ""
+      }
+    ],
+    "MenuItems": [
+      {
+        "name": "ItemID",
+        "type": "int unsigned",
+        "nullable": false,
+        "key": "PRI",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "ItemName",
+        "type": "varchar(150)",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "ItemType",
+        "type": "varchar(20)",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      }
+    ],
+    "Menus": [
+      {
+        "name": "MenuID",
+        "type": "int unsigned",
+        "nullable": false,
+        "key": "PRI",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "CuisineName",
+        "type": "varchar(100)",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "BundleKey",
+        "type": "char(64)",
+        "nullable": false,
+        "key": "UNI",
+        "default": null,
+        "extra": ""
+      }
+    ],
+    "OrderDeliveryStatus": [
+      {
+        "name": "OrderID",
+        "type": "int unsigned",
+        "nullable": false,
+        "key": "PRI",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "DeliveryDate",
+        "type": "date",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      }
+    ],
+    "Orders": [
+      {
+        "name": "OrderID",
+        "type": "int unsigned",
+        "nullable": false,
+        "key": "PRI",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "SourceOrderID",
+        "type": "varchar(32)",
+        "nullable": false,
+        "key": "MUL",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "CustomerID",
+        "type": "varchar(32)",
+        "nullable": false,
+        "key": "MUL",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "MenuID",
+        "type": "int unsigned",
+        "nullable": false,
+        "key": "MUL",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "OrderDate",
+        "type": "date",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "PostalCodeRaw",
+        "type": "varchar(64)",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "Cost",
+        "type": "decimal(18,4)",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "Sales",
+        "type": "decimal(18,4)",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "Quantity",
+        "type": "smallint unsigned",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "Discount",
+        "type": "decimal(18,4)",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      },
+      {
+        "name": "DeliveryCost",
+        "type": "decimal(18,4)",
+        "nullable": false,
+        "key": "",
+        "default": null,
+        "extra": ""
+      }
+    ]
+  },
+  "indexes": {
+    "Bookings": [
+      {
+        "name": "fk_booking_customer",
+        "unique": false,
+        "columns": [
+          "CustomerID"
+        ]
+      },
+      {
+        "name": "PRIMARY",
+        "unique": true,
+        "columns": [
+          "BookingID"
+        ]
+      },
+      {
+        "name": "uq_booking_date_table",
+        "unique": true,
+        "columns": [
+          "BookingDate",
+          "TableNo"
+        ]
+      }
+    ],
+    "Customers": [
+      {
+        "name": "PRIMARY",
+        "unique": true,
+        "columns": [
+          "CustomerID"
+        ]
+      }
+    ],
+    "MenuComponents": [
+      {
+        "name": "fk_component_item_role",
+        "unique": false,
+        "columns": [
+          "ItemID",
+          "ComponentRole"
+        ]
+      },
+      {
+        "name": "PRIMARY",
+        "unique": true,
+        "columns": [
+          "MenuID",
+          "ComponentRole"
+        ]
+      }
+    ],
+    "MenuItems": [
+      {
+        "name": "PRIMARY",
+        "unique": true,
+        "columns": [
+          "ItemID"
+        ]
+      },
+      {
+        "name": "uq_item_role",
+        "unique": true,
+        "columns": [
+          "ItemID",
+          "ItemType"
+        ]
+      }
+    ],
+    "Menus": [
+      {
+        "name": "BundleKey",
+        "unique": true,
+        "columns": [
+          "BundleKey"
+        ]
+      },
+      {
+        "name": "PRIMARY",
+        "unique": true,
+        "columns": [
+          "MenuID"
+        ]
+      }
+    ],
+    "OrderDeliveryStatus": [
+      {
+        "name": "PRIMARY",
+        "unique": true,
+        "columns": [
+          "OrderID"
+        ]
+      }
+    ],
+    "Orders": [
+      {
+        "name": "fk_order_customer",
+        "unique": false,
+        "columns": [
+          "CustomerID"
+        ]
+      },
+      {
+        "name": "fk_order_menu",
+        "unique": false,
+        "columns": [
+          "MenuID"
+        ]
+      },
+      {
+        "name": "ix_source_order",
+        "unique": false,
+        "columns": [
+          "SourceOrderID"
+        ]
+      },
+      {
+        "name": "PRIMARY",
+        "unique": true,
+        "columns": [
+          "OrderID"
+        ]
+      }
+    ]
+  },
+  "foreign_keys": [
+    {
+      "table": "Bookings",
+      "column": "CustomerID",
+      "referenced_table": "Customers",
+      "referenced_column": "CustomerID",
+      "constraint": "fk_booking_customer",
+      "position": 1,
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    {
+      "table": "MenuComponents",
+      "column": "ItemID",
+      "referenced_table": "MenuItems",
+      "referenced_column": "ItemID",
+      "constraint": "fk_component_item_role",
+      "position": 1,
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    {
+      "table": "MenuComponents",
+      "column": "ComponentRole",
+      "referenced_table": "MenuItems",
+      "referenced_column": "ItemType",
+      "constraint": "fk_component_item_role",
+      "position": 2,
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    {
+      "table": "MenuComponents",
+      "column": "MenuID",
+      "referenced_table": "Menus",
+      "referenced_column": "MenuID",
+      "constraint": "fk_component_menu",
+      "position": 1,
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    {
+      "table": "OrderDeliveryStatus",
+      "column": "OrderID",
+      "referenced_table": "Orders",
+      "referenced_column": "OrderID",
+      "constraint": "fk_delivery_order",
+      "position": 1,
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    {
+      "table": "Orders",
+      "column": "CustomerID",
+      "referenced_table": "Customers",
+      "referenced_column": "CustomerID",
+      "constraint": "fk_order_customer",
+      "position": 1,
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    },
+    {
+      "table": "Orders",
+      "column": "MenuID",
+      "referenced_table": "Menus",
+      "referenced_column": "MenuID",
+      "constraint": "fk_order_menu",
+      "position": 1,
+      "on_update": "NO ACTION",
+      "on_delete": "NO ACTION"
+    }
+  ]
+}
